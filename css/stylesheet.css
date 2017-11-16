@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+}
+body{
+    background: url(../images/Background-X-Repeat2.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Spectral SC', serif;
+    
+}
+.nav-bar ul {
+    background: #1a1a1a;
+    height: 30px;
+    width: 100%;
+    padding: 10px 15px 10px;
+}
+.nav-bar ul li {
+    background: #1a1a1a;
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    color: rgb(221, 221, 221);
+    font-size: 19px;
+}
+.nav-bar ul li:hover{
+	cursor:pointer;
+	background-color:#3a3a3a;
+	box-shadow:3px 3px 5px black;
+	transition:0.5s;
+}
+.header-section .logo{
+    color: rgb(185, 185, 185);    
+    background: rgba(126, 125, 125, 0.219);
+    float: left;
+    width: 10%;
+    height: 100px;
+}
+.header-section .header-ad{
+    color: rgb(185, 185, 185);
+    height: 100px;
+    width: 90%;
+    background: rgba(126, 125, 125, 0.219);
+    float: right;
+}
+.container{
+    color: rgb(185, 185, 185);    
+    float: left;
+    height: 1170px;
+    width: 75%;
+}
+.sidebar .sidebar-ad{
+    color: rgb(185, 185, 185);    
+    height: 167.143px;
+    width: 25%;
+    background: rgba(0, 0, 0, 0.849);
+    float: right;
+}
+.sidebar .fb-box{
+    color: rgb(185, 185, 185);    
+    height: 167.143px;
+    width: 25%;
+    background: rgba(126, 125, 125, 0.219);
+    float: right;
+}
+.sidebar .latest-blogs{
+    color: rgb(185, 185, 185);   
+    height: 167.143px;
+    width: 25%;
+    background: rgba(0, 0, 0, 0.849);
+    float: right;
+}
+.sidebar .secondary-links{
+    color: rgb(185, 185, 185);   
+    height: 167.143px;
+    width: 25%;
+    background: rgba(126, 125, 125, 0.219);
+    float: right;
+}
+.sidebar .game-link{
+    color: rgb(185, 185, 185);   
+    height: 167.143px;
+    width: 25%;
+    background: rgba(0, 0, 0, 0.849);
+    float: right;
+}
+.sidebar .contact-link{
+    color: rgb(185, 185, 185);   
+    height: 167.143px;
+    width: 25%;
+    background: rgba(126, 125, 125, 0.219);
+    float: right;
+}
+.sidebar .tutorials{
+    color: rgb(185, 185, 185);   
+    height: 167.143px;
+    width: 25%;
+    background: rgba(0, 0, 0, 0.849);
+    float: right;
+}
+/* ----------Hover Style----------- */
+.sidebar .sidebar-ad:hover{
+    color: black;
+	cursor:pointer;
+	background-color:#727272;
+	box-shadow:3px 3px 5px black;
+	transition:0.5s;
+}
+.sidebar .fb-box:hover{
+    color: black;
+	cursor:pointer;
+	background-color:#727272;
+	box-shadow:3px 3px 5px black;
+	transition:0.5s;
+}
+.sidebar .latest-blogs:hover{
+    color: black;
+	cursor:pointer;
+	background-color:#727272;
+	box-shadow:3px 3px 5px black;
+	transition:0.5s;
+}
+.sidebar .secondary-links:hover{
+    color: black;
+	cursor:pointer;
+	background-color:#727272;
+	box-shadow:3px 3px 5px black;
+	transition:0.5s;
+}
+.sidebar .game-link:hover{
+    color: black;
+	cursor:pointer;
+	background-color:#727272;
+	box-shadow:3px 3px 5px black;
+	transition:0.5s;
+}
+.sidebar .contact-link:hover{
+    color: black;
+	cursor:pointer;
+	background-color:#727272;
+	box-shadow:3px 3px 5px black;
+	transition:0.5s;
+}
+.sidebar .tutorials:hover{
+    color: black;
+	cursor:pointer;
+	background-color:#727272;
+	box-shadow:3px 3px 5px black;
+	transition:0.5s;
+}
+/*---------End of Hover--------*/
+.footer-section{
+    color: rgb(185, 185, 185);   
+    background: rgba(126, 125, 125, 0.219);
+    height: 100px;
+    width: 100%;
+    float: right;
+}
